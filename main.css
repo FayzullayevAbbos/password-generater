@@ -1,0 +1,122 @@
+:root {
+  --main-col: #a4ffaf;
+  --font-col: #e6e5ea;
+  --page-col: #24232c;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input {
+  cursor: pointer;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+}
+html,
+body {
+  height: 100%;
+  font-family: "JetBrains Mono", monospace;
+  background: linear-gradient(180deg, #14131b 0%, #08070b 100%);
+  font-size: 62.5%;
+  color: var(--font-col);
+}
+img {
+  display: block;
+}
+
+.container {
+  max-width: 54rem;
+  margin: 0 auto;
+  padding: 1.9rem 3.2rem;
+}
+.h1 {
+  text-align: center;
+}
+.con-parol {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--page-col);
+  font-size: 3.2rem;
+
+  margin-bottom: 2.4rem;
+}
+.main_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 1.6rem;
+}
+main {
+  background: var(--page-col);
+}
+.length {
+  color: var(--main-col);
+  font-size: 3.2rem;
+}
+#range {
+  width: 100%;
+  background: var(--main-col);
+  -webkit-appearance: none;
+  height: 8px;
+  outline: none;
+  border-radius: 1.5rem;
+  margin-bottom: 3.2rem;
+}
+#range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--font-col);
+}
+.inp-checkbox {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  margin-bottom: 3rem;
+}
+.power {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #14131b;
+  padding: 23px;
+  margin-bottom: 3.2rem;
+}
+.power-p {
+  font-size: 18px;
+  color: gray;
+}
+.power-right {
+  display: flex;
+  font-size: 24px;
+  gap: 1.5rem;
+}
+.degree {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.degree div {
+  width: 1rem;
+  height: 2.8rem;
+  background: var(--main-col);
+}
+.gener {
+  display: flex;
+  max-width: 476px;
+}
+.btn {
+  background: var(--main-col);
+  border: none;
+  width: 100%;
+  padding: 2rem;
+  cursor: pointer;
+  font-size: 1.8rem;
+  font-weight: 700;
+}

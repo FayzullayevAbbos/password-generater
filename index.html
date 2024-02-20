@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <h1 class="h1 container">Password Generator</h1>
+    <div class="container con-parol">
+      <p class="parol">PTx1f5DaFX</p>
+      <img src="copy.svg" alt="copy-icon" />
+    </div>
+    <main class="container">
+      <div class="main_head">
+        <span>Character Length</span>
+        <span class="length">0</span>
+      </div>
+      <input id="range" value="0" min="0" max="20" step="1" type="range" />
+      <div class="inp-checkbox">
+        <div class="">
+          <input
+            type="checkbox"
+            id="uppercase"
+            name="interest"
+            value="coding"
+          />
+          <label for="uppercase">Include Uppercase Letters</label>
+        </div>
+
+        <div class="">
+          <input
+            type="checkbox"
+            id="lowercase"
+            name="interest"
+            value="coding"
+          />
+          <label for="lowercase">Include Lowercase Letters</label>
+        </div>
+
+        <div class="">
+          <input type="checkbox" id="numers" name="interest" value="coding" />
+          <label for="numers">Include Numbers</label>
+        </div>
+
+        <div class="">
+          <input type="checkbox" id="symbols" name="interest" value="coding" />
+          <label for="symbols">Include Symbols</label>
+        </div>
+      </div>
+
+      <div class="power">
+        <div class="power-p">STRENGTH</div>
+        <div class="power-right">
+          <p>MEDIUM</p>
+          <div class="degree">
+            <div class="d1"></div>
+            <div class="d1"></div>
+            <div class="d1"></div>
+            <div class="d1"></div>
+          </div>
+        </div>
+      </div>
+      <div class="gener">
+        <button class="btn">
+          GENERATE
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="12"
+            height="12"
+            viewBox="0 0 12 12"
+            fill="none"
+          >
+            <path
+              d="M5.10547 12L11.1054 6.00002L5.10547 0L3.84045 1.26501L7.68094 5.10547L0 5.10547V6.8946L7.68094 6.8946L3.84045 10.735L5.10547 12Z"
+              fill="#24232C"
+            />
+          </svg>
+        </button>
+      </div>
+    </main>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
